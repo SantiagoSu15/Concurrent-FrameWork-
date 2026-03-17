@@ -242,9 +242,10 @@ donde el puerto 42000 es el puerto que se le asigna a la instancia en aws y el n
 la imagen correra en el puerto 6000 dentro de la instancia
 
 **Video prueba del despliegue**
-![AWS](/docs/pruebaAWS.mp4)
 
-<video src="/docs/pruebaAWS.mp4" controls="controls" width="100%"></video>
+![AWS](/docs/aws.mp4)
+
+<video src="/docs/aws.mp4" controls="controls" width="100%"></video>
 
 
 Se puede acceder a la aplicacion con el DNS publico de aws en el puerto 42000 
