@@ -247,8 +247,8 @@ la imagen correra en el puerto 6000 dentro de la instancia
 
 ![AWS](/docs/aws.mp4)
 
-<video src="/docs/aws.mp4" controls="controls" width="100%"></video>
-
+[<video src="/docs/aws.mp4" controls="controls" width="100%"></video>
+](https://github.com/user-attachments/assets/46b13d73-e8e6-472d-9944-bbeba20ec3a8)
 
 Se puede acceder a la aplicacion con el DNS publico de aws en el puerto 42000 
 
