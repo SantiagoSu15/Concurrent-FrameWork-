@@ -2,6 +2,7 @@
 
 Un servidor web construido desde cero en Java puro, sin dependencias externas, con un framework IoC (Inversión de Control) que carga y registra automáticamente componentes web (POJOs) usando reflexión de Java.
 Con concurrencia y desplgiegue en AWS
+
 ---
 
 ## Arquitectura
@@ -242,6 +243,9 @@ la imagen correra en el puerto 6000 dentro de la instancia
 
 **Video prueba del despliegue**
 ![AWS](/docs/pruebaAWS.mp4)
+
+<video src="/docs/pruebaAWS.mp4" controls="controls" width="100%"></video>
+
 
 Se puede acceder a la aplicacion con el DNS publico de aws en el puerto 42000 
 
