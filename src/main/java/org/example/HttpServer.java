@@ -24,11 +24,10 @@ public class HttpServer {
 
     public void start() throws IOException {
         ServerSocket serverSocket = new ServerSocket(port);
-        System.out.println("Servidor escuchando en http://localhost:" + port);
         RequestConcurrente requestConcurrente = new RequestConcurrente(10);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            System.out.println("Apagando servidor...");
+            System.out.println("Apagando sv");
             try {
                 serverSocket.close();
                 requestConcurrente.executor.shutdown();
