@@ -229,9 +229,11 @@ Tras la creacion de un EC2 en aws se crea un grupo de seguridad para permitir el
 En bash se sube la imagen a la instancia
 
 **Hacer pull de la imagen**
+
 ![Subir](/docs/img_4.png)
 
 **Revisar en aws**
+
 ![AWS](/docs/img_5.png)
 
 **correr la imagen de docker**
